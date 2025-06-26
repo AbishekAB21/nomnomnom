@@ -12,7 +12,9 @@ class SplashScreenComponent extends StatelessWidget {
 
       body: Center(
         child: Column(
-          children: [Icon(Icons.lunch_dining, color: appcolor.secondaryGradient1)],
+          children: [
+            Icon(Icons.lunch_dining, color: appcolor.secondaryGradient1),
+          ],
         ),
       ),
     );
